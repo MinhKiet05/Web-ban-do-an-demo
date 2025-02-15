@@ -1,0 +1,99 @@
+
+  *.container{
+    background-color: rgb(23, 23, 23);
+  }
+  body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-image: url(../img/bg.png);
+      background-size: 140%;
+      scroll-behavior: smooth;
+    }
+    .container {
+      display: flex;
+      height: auto;
+      margin: 1%;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      border-top-left-radius:20px ;
+      border-top-right-radius:20px ;
+    }
+    .left-side {
+      width: 20%;
+    }
+    .left-side1{
+      position: sticky;
+      top: 100px;
+    }
+    .menu{
+      margin-left: 10%;
+      margin-top: 10%;
+      font-family: 'Brush Script MT', cursive;
+      font-size: 250%;
+      background-color: gold;
+      height: 6vh;
+      width: 13vh;
+      text-align: center;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-top-left-radius:10px ;
+      border-top-right-radius:10px ;
+    }
+    .opt{
+      padding-top: 15%;
+      color: black; 
+      font-size: 120%;
+      margin-left: 15%;
+      font-family: 'Times New Roman', Times, serif;
+      width: 60vh;
+    }
+    .right-side {
+      height: auto;
+      width: 80vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+    .choice{
+      color: white;
+      font-size: 150%;
+       font-family: 'Times New Roman', Times, serif;
+       margin-top: 2%;
+       padding-top: 5%;
+    }
+    .end{
+      background-image: url(../img/home5.png);
+      font-family: 'Times New Roman', Times, serif;
+      width: 100%;
+      padding-left: 5%;
+      color: white;
+      padding-top: 1%;
+      padding-bottom: 1%;
+}
+.tieuDe{
+  font-size: 180%;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+.content{
+  font-size: 120%;
+}
+.icon{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius:5px ;
+  border-top-right-radius:5px ;
+  margin-right:  10px;
+}
+.endreal{
+  background-color:white;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  font-size: 150%;
+}

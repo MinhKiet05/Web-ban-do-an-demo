@@ -1,0 +1,48 @@
+body{
+    background-image: url(../img/order.jpg);
+    background-size: 100%;
+}
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(23, 23, 23) ;
+    color: white;
+    margin-top: 7%;
+    padding-bottom: 2%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+.end{
+  background-image: url(../img/home5.png);
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  padding-left: 5%;
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.tieuDe{
+font-size: 180%;
+font-family: 'Times New Roman', Times, serif;
+color: white;
+}
+.content{
+font-size: 120%;
+}
+.icon{
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-left-radius:5px ;
+border-top-right-radius:5px ;
+margin-right:  10px;
+}
+.endreal{
+background-color:white;
+width: 100%;
+height: 50px;
+text-align: center;
+color: black;
+padding-top: 10px;
+font-size: 150%;
+}

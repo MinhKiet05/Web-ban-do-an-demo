@@ -1,0 +1,78 @@
+body{
+    background: url(../img/about.jpg);
+    background-size: 100vw;
+    height: auto;
+}
+.container{
+    width: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    background-color: rgb(23, 23, 23) ;
+    color: white;
+    margin-left: 10%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    padding-bottom: 1%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+#check {
+  display: none;
+}
+.content{
+  display: none;
+  transition: 0.5s linear;
+}
+label {
+  display: inline-block;
+  color: gold;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+}
+#check:checked ~ .content {
+  display: block;
+}
+#check:checked ~label{
+    visibility: hidden;
+}
+#check:checked ~label::after{
+    content: 'Show less';
+    display: block;
+    visibility: visible;
+}
+.end{
+  background-image: url(../img/home5.png);
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  padding-left: 5%;
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.tieuDe{
+font-size: 180%;
+font-family: 'Times New Roman', Times, serif;
+color: white;
+}
+.content1{
+font-size: 120%;
+}
+.icon{
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-left-radius:5px ;
+border-top-right-radius:5px ;
+margin-right:  10px;
+}
+.endreal{
+background-color:white;
+width: 100%;
+height: 50px;
+text-align: center;
+color: black;
+padding-top: 10px;
+font-size: 150%;
+}
