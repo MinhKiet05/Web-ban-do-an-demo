@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RamFood</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="CSS/home.css">
+</head>
+<body style="background-color: black;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" style="font-family: 'Brush Script MT', cursive; padding-left: 15%; padding-right: 15%; font-size: 300%;">RamFood</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 150%; font-family: 'Times New Roman', Times, serif;">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="HTML/Menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="HTML/Order.html">Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="HTML/book.html">Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="HTML/about.html">About</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          
+            <a class="nav-link" aria-current="page" href="HTML/Order.html"><svg width="25" height="25" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 14C3 14 2 14 2 13C2 12 3 9 8 9C13 9 14 12 14 13C14 14 13 14 13 14H3Z" fill="black"/>
+              <path d="M8 8C9.65685 8 11 6.65685 11 5C11 3.34315 9.65685 2 8 2C6.34315 2 5 3.34315 5 5C5 6.65685 6.34315 8 8 8Z" fill="black"/>
+              </svg>
+              </a>
+            <a class="nav-link" aria-current="page" href="HTML/Menu.html"><svg width="25" height="25" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 2.5C0 2.22386 0.223858 2 0.5 2H2C2.22943 2 2.42943 2.15615 2.48507 2.37873L2.89039 4H14.5C14.654 4 14.7993 4.07094 14.8941 4.19229C14.9889 4.31365 15.0224 4.4719 14.9851 4.62127L13.4851 10.6213C13.4294 10.8439 13.2294 11 13 11H4C3.77057 11 3.57057 10.8439 3.51493 10.6213L1.60961 3H0.5C0.223858 3 0 2.77614 0 2.5ZM3.14039 5L3.64039 7H5V5H3.14039ZM6 5V7H8V5H6ZM9 5V7H11V5H9ZM12 5V7H13.3596L13.8596 5H12ZM13.1096 8H12V10H12.6096L13.1096 8ZM11 8H9V10H11V8ZM8 8H6V10H8V8ZM5 8H3.89039L4.39039 10H5V8ZM5 13C4.44772 13 4 13.4477 4 14C4 14.5523 4.44772 15 5 15C5.55228 15 6 14.5523 6 14C6 13.4477 5.55228 13 5 13ZM3 14C3 12.8954 3.89543 12 5 12C6.10457 12 7 12.8954 7 14C7 15.1046 6.10457 16 5 16C3.89543 16 3 15.1046 3 14ZM12 13C11.4477 13 11 13.4477 11 14C11 14.5523 11.4477 15 12 15C12.5523 15 13 14.5523 13 14C13 13.4477 12.5523 13 12 13ZM10 14C10 12.8954 10.8954 12 12 12C13.1046 12 14 12.8954 14 14C14 15.1046 13.1046 16 12 16C10.8954 16 10 15.1046 10 14Z" fill="black"/>
+              </svg>
+              </a>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.7422 10.3439C12.5329 9.2673 13 7.9382 13 6.5C13 2.91015 10.0899 0 6.5 0C2.91015 0 0 2.91015 0 6.5C0 10.0899 2.91015 13 6.5 13C7.93858 13 9.26801 12.5327 10.3448 11.7415L10.3439 11.7422C10.3734 11.7822 10.4062 11.8204 10.4424 11.8566L14.2929 15.7071C14.6834 16.0976 15.3166 16.0976 15.7071 15.7071C16.0976 15.3166 16.0976 14.6834 15.7071 14.2929L11.8566 10.4424C11.8204 10.4062 11.7822 10.3734 11.7422 10.3439ZM12 6.5C12 9.53757 9.53757 12 6.5 12C3.46243 12 1 9.53757 1 6.5C1 3.46243 3.46243 1 6.5 1C9.53757 1 12 3.46243 12 6.5Z" fill="black"/>
+            </svg>
+            </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" style="border-radius: 10px;">
+        <div class="carousel-item active">
+          <img src="img/home1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/home6.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/home3.jpg" class="d-block w-100" alt="...">
+        </div>  
+        <div class="carousel-item">
+          <img src="img/home7.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/home2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/home8.jpg" class="d-block w-100" alt="...">
+        </div> 
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  
+<div class="container2">
+<table style="width: 100%; margin-top: 1%;">
+  <tr>
+    <td style="width: 5%;"></td>
+    <td style="width: 50%; padding-right: 1%;">
+      
+        <div style="font-family: 'Brush Script MT', cursive; font-size: 250%; color: gold;">RamFood</div>
+        <p>- Được thành lập tại thành phố Thành phố HCM, năm 2018, RamFood là một trong những thương hiệu hàng đầu Việt Nam về ngành dịch vụ ăn nhanh.&nbsp;RamFood hiện&nbsp;là thương hiệu quốc tế hàng đầu về gà rán, phục vụ trên 1 triệu quý khách mỗi tháng trên toàn hệ thống 300&nbsp;tiệm của RamFood tại nước Việt Nam và 26&nbsp;nước trên toàn thế giới.</p>
+        <p>- Thương hiệu gà rán RamFood cam kết chỉ sử dụng những nguyên liệu gà&nbsp;tươi ngon, chất lượng nhất, không sử dụng thực phẩm đông lạnh. Các món ăn sẽ được chế biến hàng ngày và đảm bảo nóng hổi, giòn ngon khi đem ra bàn phục vụ thực khách.</p>
+        <p>- Đến nay RamFood đã nhanh chóng phát triển với 30&nbsp;nhà hàng&nbsp; tại Tp.HCM, Bình Dương, Nha Trang, Hà Nội, Hải Phòng và Biên Hòa, thu hút đông đảo thực khách đến trải nghiệm các sản phẩm “Hamburger đậm vị RamFood”.</p>
+        
+        <a href="Order.html " style="color: black;text-decoration: none;margin-left: 80%;"><button type="button" class="btn btn-warning">Order ngay</button></a>
+      
+    </td>
+    <td style="width: 20%; padding-right: 10%; padding-top: 1%;">
+      <img src="img/home4.jpg" alt="" width="320vh">
+    </td>
+  </tr>
+</table>
+</div>
+<div class="end">
+  <table style="width: 90%;" class="content">
+    <tr>
+      <td>
+        <a class="navbar-brand" href="index.html" style="font-family: 'Brush Script MT', cursive; padding-left: 35%; padding-right: 20%; font-size: 330%; color: gold;">RamFood</a>
+      </td>
+      <td colspan="2" style="padding-left: 35%;" >
+        <a href="youtube.com"><img src="img/icon-ytb.jpg" class="icon" ></a>
+        <a href="x.com"><img src="img/icon-tw.jpg" class="icon"></a>
+        <a href="facebook.com"><img src="img/icon-fb.jpg" class="icon" style="width: 55px;"></a>
+        <a href="instagram.com"><img src="img/icon-ig.jpg" class="icon" style="width: 55px;"></a>
+      </td>
+    </tr>
+    <tr class="tieuDe">
+      <td style="width: 40%;">
+        Trụ sở chính: Việt Nam
+      </td>
+      <td style="width: 35%;"> 
+        Branch in the USA:
+      </td>
+      <td style="width: 30%;">
+        日本支社:
+      </td>
+    </tr>
+    <div>
+    <tr>
+      <td>
+        <img src="img/map.svg">Địa chỉ: 12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Thành phố Hồ Chí Minh
+      </td>
+      <td>
+        <img src="img/map.svg">Address: 12 States of California, USA
+      </td>
+      <td>
+        <img src="img/map.svg">住所: 12 渋谷 東京
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="img/phone.svg" alt=""> Liên hệ: (84+) 877 569 159
+      </td>
+      <td>
+        <img src="img/phone.svg" alt=""> Contact: (1+) 913 722 046
+      </td>
+      <td>
+        <img src="img/phone.svg" alt=""> 接触: (81+) 949 667 823
+      </td>
+    </tr>
+    <tr>
+      <td style="padding-left: 90px;">
+        (84+) 949 452 463
+      </td>
+      <td>
+        <img src="img/email.svg"> Email:<a href="RamFoodUSA@gmail.com"style="color: white;text-decoration:none;"> RamFoodUSA@gmail.com</a>
+      </td>
+      <td>
+        <img src="img/email.svg"> メール:<a href="RamFoodJapan@gmail.com"style="color: white;text-decoration:none;"> RamFoodJapan@gmail.com</a> 
+      </td>
+    </tr>
+    <tr>
+      <td style="padding-left: 90px;">
+        (84+) 817 172 902
+      </td>
+      <td>
+        <img src="img/web.svg"> Web:<a href="www.ramfoodusa.com"style="color: white;text-decoration:none;"> www.ramfoodusa.com</a>  
+      </td>
+      <td>
+        <img src="img/web.svg"> ウェブ:<a href="www.ramfoodjapan.com"style="color: white;text-decoration:none;"> www.ramfoodjapan.com</a>  
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="img/email.svg"> Email:<a href="RamFoodVietNam@gmail.com"style="color: white;text-decoration:none;"> RamFoodVietNam@gmail.com</a> 
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="img/web.svg" alt=""> Web:<a href="www.ramfoodvn.com"style="color: white;text-decoration:none;"> www.ramfoodvn.com</a> 
+      </td>
+    </tr>
+  </div>
+    <tr><td colspan="3" style="border-bottom: 1px solid white;padding-top: 10px;"></td></tr>
+    <tr style="margin-top: 50px;">
+      <td>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"/>
+        </svg> <a href="chinhsachvafquydinhchung.vn" style="color: white;text-decoration:none;"> Chính sách và quy định chung</a>
+      </td>
+      <td>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"/>
+        </svg> <a href="thongtinvanchuyenvsgiaonhan.vn" style="color: white;text-decoration:none;"> Thông tin vận chuyển và giao nhận</a>
+      </td>
+      <td>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"/>
+        </svg> <a href="huongdandatphanan.vn" style="color: white;text-decoration:none;"> Hướng dẫn đặt phần ăn</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"/>
+       </svg> <a href="chinhsachthanhtoankhidathang.vn" style="color: white;text-decoration:none;"> Chính sách thanh toán khi đặt hàng</a>
+     </td>
+     <td>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"/>
+      </svg> <a href="thongtindangkygiaodichchung.vn" style="color: white;text-decoration:none;"> Thông tin đăng ký giao dịch chung</a>
+     </td>
+  </tr>
+  <tr>
+    <td>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"/>
+      </svg> <a href="chinhsachhoatdong.vn" style="color: white;text-decoration:none;"> Chính sách hoạt động</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"/>
+      </svg> <a href="chinhsachbaomatthongtin.vn" style="color: white;text-decoration:none;"> Chính sách bảo mật thông tin</a>
+    </td>
+  </tr>
+  </table>  
+</div>
+<div class="endreal">
+  © 2018 Ramfood Viet Nam
+  </div>
+</body>
+</html>
