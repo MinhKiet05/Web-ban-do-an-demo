@@ -7,13 +7,14 @@
   padding-top: 1%;
   padding-bottom: 1%;
 }
+
 .tieuDe{
 font-size: 180%;
 font-family: 'Times New Roman', Times, serif;
 color: white;
 }
 .content{
-font-size: 120%;
+  font-size: 16px;
 }
 .icon{
 border-bottom-left-radius: 5px;
@@ -30,4 +31,16 @@ text-align: center;
 color: black;
 padding-top: 10px;
 font-size: 150%;
+}
+a{
+  transition: all 0.5s ease;
+  color: white;
+}
+a:hover {
+  color: gold;
+  transform: scale(1.1); 
+}
+
+.icon:hover {
+  transform: scale(1.1);
 }
