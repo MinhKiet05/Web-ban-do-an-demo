@@ -1,22 +1,24 @@
-body{
+.body{
     background: url(../img/about.jpg);
-    background-size: 100vw;
-    height: auto;
+    background-size: contain;
+  background-repeat: no-repeat;
+  height: 855px;
+  padding-top: 120px;
+  
 }
+
 .container{
     width: 100vh;
     font-family: 'Times New Roman', Times, serif;
     font-size: 120%;
     background-color: rgb(23, 23, 23) ;
     color: white;
-    margin-left: 10%;
-    margin-top: 6%;
-    margin-bottom: 10%;
     padding-bottom: 1%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius:10px ;
     border-top-right-radius:10px ;
+    margin-left: 100px;
 }
 #check {
   display: none;
