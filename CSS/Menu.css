@@ -217,11 +217,9 @@ label {
     display: flex;
     justify-items: center;
   }
-  .containerLeft{
-    margin-left: 0;
-  }
+
   .container{
-    margin-left: 0;
+    
     width: 100%;
     padding-left: 0;
   }
@@ -236,3 +234,15 @@ label {
     width: 100%;
   }
 }
+
+
+@media (max-width: 600px) {
+.menu{
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  margin-left: 0;
+}
+}
+
