@@ -169,6 +169,10 @@ label {
 }
 
 @media (max-width: 850px) {
+  .contact{
+    display: flex;
+    flex-direction: column;
+  }
   .main{
       height:100vw;
   }

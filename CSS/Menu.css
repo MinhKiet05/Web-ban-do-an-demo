@@ -217,7 +217,10 @@ label {
     display: flex;
     justify-items: center;
   }
-
+  .contact{
+    display: flex;
+    flex-direction: column;
+  }
   .container{
     
     width: 100%;

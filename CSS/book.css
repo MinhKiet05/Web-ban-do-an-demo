@@ -156,6 +156,10 @@ iframe{
   .main{
       min-height: 1000px;
   }
+  .contact{
+    display: flex;
+    flex-direction: column;
+  }
   .container{
       width: 80vw;
   }

@@ -65,6 +65,10 @@ header {
     .infomation .infomationInCountry{
       width: 100%;
     }
+    .contact{
+      display: flex;
+      flex-direction: column;
+    }
   }
   
   .logo {
