@@ -1,0 +1,152 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.nav-item{
+  font-weight: 500;
+}
+#container1 {
+  width: 100%;
+  padding-top: 98px;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-bottom: 15px;
+  background-color: black;
+}
+
+.carousel-inner {
+  margin-top: 15px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#container2 {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  background-color: rgb(23, 23, 23);
+  display: flex;
+  width: 100%;
+}
+
+#container2 .left {
+  width: 75%;
+  padding: 20px;
+
+}
+
+#container2 .left p {
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+#container2 .right {
+  width: 263px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  #container2 {
+    flex-direction: column;
+  }
+
+  #container2 .left,
+  #container2 .right {
+    width: 100%;
+  }
+  .infomation{
+    flex-direction: column;
+  }
+  .infomation .infomationInCountry{
+    width: 100%;
+  }
+}
+
+.logo {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 250%;
+  color: gold;
+  padding-left: 5vw;
+  font-size: 50px;
+}
+
+footer{
+  background-image: url(../img/home5.png);
+  padding: 20px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.contact{
+  display: flex;
+}
+.contact .logo{
+  padding-right: 20px;
+  font-size: 52px;
+  padding-left: 20px;
+}
+.contact-logo{
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.icon{
+  margin-bottom: 12px;
+  margin-left: 12px;
+  width: 55px;
+  height: 55px;
+}
+.infomation{
+  color: aliceblue;
+  display: flex;
+}
+.infomationInCountry{
+  width: 33.333%;
+  margin: 12px;
+  font-size: 17px;
+}
+.infomationInCountry p{
+  margin:4px;
+}
+.infomationInCountry .Title{
+  font-size: 30px;
+}
+
+hr{
+  color: white;
+}
+#end{
+  background-color:white;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  font-size: 150%;
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+a:hover {
+  color: gold;
+  transform: scale(1.1); 
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+header a:hover{
+  transform: scale(1.05);
+}
+
+li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
