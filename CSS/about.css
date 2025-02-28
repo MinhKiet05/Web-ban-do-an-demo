@@ -112,14 +112,15 @@ li {
   padding-right: 10px;
 }
 .main{
-  
-  height: 55.75vw;
+  height: auto;
       background: url(../img/about.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         background-color: rgb(44, 41, 38);
       margin-top: 98px;
       padding-top: 1px;
+      padding-bottom: 20px;
+      min-height: 855px;
 }
 .container {
   font-family: 'Times New Roman', Times, serif;
@@ -133,7 +134,7 @@ li {
   border-top-right-radius: 10px;
   width: 60vw;
   margin-left: 12vw;
-  margin-top: 6vw;
+  margin-top: 60px;
   padding-bottom: 12px;
 }
 
@@ -173,9 +174,7 @@ label {
     display: flex;
     flex-direction: column;
   }
-  .main{
-      height:100vw;
-  }
+
   .container{
       width: 76vw;
   }
@@ -188,17 +187,13 @@ label {
 }
 
 @media (max-width: 1000px) {
-  .main{
-      height:65vw;
-  }
+
   .container{
       width: 68vw;
   }
 }
 @media (max-width: 950px) {
-  .main{
-      height:70vw;
-  }
+
   .container{
       width: 76vw;
   }.container{
@@ -206,9 +201,7 @@ label {
   }
 }
 @media (max-width: 950px) {
-  .main{
-      height:70vw;
-  }
+
   .container{
       width: 76vw;
   }.container{
@@ -216,89 +209,14 @@ label {
   }
 }
 @media (max-width: 800px) {
-  .main{
-      height:75vw;
-  }
-  .container{
-      width: 76vw;
-  }
-  .infomation{
-    flex-direction: column;
-  }
-  .infomation .infomationInCountry{
-    width: 100%;
-  }
-}
-@media (max-width: 700px) {
-  .main{
-      height:90vw;
-  }
-  .container{
-      width: 76vw;
-  }
-  .infomation{
-    flex-direction: column;
-  }
-  .infomation .infomationInCountry{
-    width: 100%;
-  }
-}
-@media (max-width: 650px) {
-  .main{
-      height:100vw;
-  }
-  .container{
-      width: 76vw;
-  }
-  .infomation{
-    flex-direction: column;
-  }
-  .infomation .infomationInCountry{
-    width: 100%;
-  }
-}
-@media (max-width: 600px) {
-  .main{
-      height:110vw;
-  }
-  .container{
-      width: 76vw;
-  }
-  .infomation{
-    flex-direction: column;
-  }
-  .infomation .infomationInCountry{
-    width: 100%;
-  }
-}
-@media (max-width: 550px) {
-  .main{
-      height:130vw;
-  }
-  .container{
-      width: 76vw;
-  }
-  .infomation{
-    flex-direction: column;
-  }
-  .infomation .infomationInCountry{
-    width: 100%;
-  }
-}
-@media (max-width: 500px) {
-  .main{
-      height:135vw;
-  }
-  .container{
-      width: 76vw;
-  }
-  .infomation{
-    flex-direction: column;
-  }
-  .infomation .infomationInCountry{
-    width: 100%;
-  }
-}
 
-
-
+  .container{
+      width: 76vw;
+  }
+  .infomation{
+    flex-direction: column;
+  }
+  .infomation .infomationInCountry{
+    width: 100%;
+  }
+}
