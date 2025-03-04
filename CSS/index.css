@@ -49,7 +49,22 @@ header {
   justify-content: center;
   align-items: center;
 }
-
+.modal-open {
+  overflow: auto !important;
+}
+.modal-backdrop {
+  display: none !important;
+}
+#authTabs .nav-link {
+  color: black;
+  font-weight: bold;
+}
+#authTabs .nav-link.active {
+  color: gold !important;
+}
+.modal .fade{
+  font-size: 16px;
+}
 @media (max-width: 800px) {
   #container2 {
     flex-direction: column;

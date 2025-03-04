@@ -9,7 +9,25 @@ header {
 .nav-item {
     font-weight: 500;
 }
-
+.modal-open {
+  overflow: auto !important;
+}
+.modal-backdrop {
+  display: none !important;
+}
+#authTabs .nav-link {
+  color: black;
+  font-weight: bold;
+}
+#authTabs .nav-link.active {
+  color: gold !important;
+}
+.modal .fade{
+  font-size: 16px;
+}
+.nav-item {
+  font-weight: 500;
+}
 .logo {
     font-family: 'Brush Script MT', cursive;
     font-size: 250%;
