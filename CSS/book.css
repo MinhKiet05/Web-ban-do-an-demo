@@ -194,6 +194,9 @@ iframe{
 }
 
 @media (max-width: 900px) {
+  .contact{
+    flex-direction: column;
+  }
   .main{
       height:140vw;
   }

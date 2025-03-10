@@ -69,7 +69,9 @@ header {
   #container2 {
     flex-direction: column;
   }
-
+  .contact{
+    flex-direction: column;
+  }
   #container2 .left,
   #container2 .right {
     width: 100%;

@@ -148,7 +148,9 @@ li {
   
 }
 @media (max-width: 800px) {
-
+  .contact{
+    flex-direction: column;
+  }
   .container{
     background-color:rgb(23, 23, 23);
     width: 80vw;

@@ -231,26 +231,33 @@ label {
 
 @media (max-width: 1000px) {
   .main{
-    padding-left: 0;
+    padding-left: 5px;
     display: flex;
     justify-items: center;
   }
   .containerLeft{
     margin-left: 0;
+    margin-right: 10px;
   }
   .container{
     margin-left: 0;
-    width: 96vw;
+    width: 92vw;
     padding-left: 0;
   }
   .optGroup{
-    margin-left: 0;
+    margin-left: 5px;
   }
-
+  .contact{
+    flex-direction: column;
+  }
   .infomation{
     flex-direction: column;
   }
   .infomation .infomationInCountry{
     width: 100%;
   }
+  .containerRight{
+    margin-left: 0;
+
+ }
 }
