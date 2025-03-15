@@ -78,7 +78,10 @@ footer {
   margin: 12px;
   font-size: 17px;
 }
-
+.navbar-brand{
+  padding-left: 14%;
+  padding-right: 10%;
+}
 .infomationInCountry p {
   margin: 4px;
 }
