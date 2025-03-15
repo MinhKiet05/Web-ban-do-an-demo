@@ -154,6 +154,10 @@ li {
   margin-left: 10vw;
   margin-top: 6vw;
   padding-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 h5{
   font-size: 20px;
@@ -211,7 +215,7 @@ label {
 .groupCard{
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 .MenuTitle{
   color: aliceblue;
@@ -240,9 +244,11 @@ label {
     margin-right: 10px;
   }
   .container{
-    margin-left: 0;
-    width: 92vw;
-    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      margin-left: 0;
+      width: 100%;
   }
   .optGroup{
     margin-left: 5px;
@@ -257,7 +263,12 @@ label {
     width: 100%;
   }
   .containerRight{
-    margin-left: 0;
+    margin-left: 10vw;
 
+ }
+ .menu{
+  
+  flex-direction: column;
+  flex-wrap: nowrap;
  }
 }
