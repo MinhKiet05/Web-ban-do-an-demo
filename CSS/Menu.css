@@ -200,8 +200,24 @@ label {
 }
 .menu{
   display: flex;
+  width: 90%;
 }
-
+.card-text{
+  min-height: 173px;
+}
+.in4{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card{
+  width: 100%;
+  max-width: 268px;
+}
+.btnOrder{
+  display: flex;
+}
 .containerLeft{
   min-width: 156px;
   margin: 20px;
