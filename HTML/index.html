@@ -119,29 +119,11 @@
                               <input type="password" class="form-control" placeholder="Xác nhận mật khẩu">
                             </div>
                           </div>
-                          <div class="row mb-1">
-                            <div class="col-md-6">
-                              <select class="form-select">
-                                <option selected>Chọn thành phố</option>
-                                <option value="TPHCM">TP.HCM</option>
-                                <option value="DaNang">Đà Nẵng</option>
-                                <option value="Khac">Khác</option>
-                              </select>
-                            </div>
-                            <div class="col-md-6">
-                              <select class="form-select">
-                                <option selected>Quận</option>
-                                <option value="Q1">Quận 1</option>
-                                <option value="Q2">Quận 2</option>
-                                <option value="GoVap">Quận Gò Vấp</option>
-                              </select>
-                            </div>
-                          </div>
                           <div class="mb-2">
                             <input type="text" class="form-control" placeholder="Địa chỉ">
                           </div>
                           <div class="mb-2">
-                            <input type="date" class="form-control">
+                            <input type="date" class="form-control" placeholder="Ngày sinh">
                           </div>
                           <div class="row mb-2">
                             <div class="col-md-6">
@@ -318,4 +300,63 @@
       © 2018 Ramfood Viet Nam
     </div>
 </body>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelector("#register button[type='submit']").addEventListener("click", function (event) {
+      event.preventDefault();
+      let birthdate = document.querySelector("#register input[type='date']").value;
+      let gender = document.querySelector("#register select:nth-of-type(1)").value;
+      let name = document.querySelector("#register input[placeholder='Họ tên']").value.trim();
+      let phone = document.querySelector("#register input[placeholder='Số điện thoại']").value.trim();
+      let email = document.querySelector("#register input[placeholder='Email']").value.trim();
+      let password = document.querySelector("#register input[placeholder='Mật khẩu']").value.trim();
+      let address = document.querySelector("#register input[placeholder='Địa chỉ']").value.trim();
+      let captcha = document.querySelector("#register input[placeholder='Nhập mã captcha']").value.trim();
+      let confirmPassword = document.querySelector("#register input[placeholder='Xác nhận mật khẩu']").value.trim();
+      let errorMessage = "";
+
+      if (!/^[A-ZÀ-Ỹ][a-zà-ỹ]{3,29}(\s[A-ZÀ-Ỹ][a-zà-ỹ]*)*$/.test(name)) {
+        errorMessage += "Họ tên phải có ít nhất 4 và nhiều nhất 30 ký tự, mỗi chữ cái đầu viết hoa.\n";
+      }
+
+      if (!/^0\d{9}$/.test(phone)) {
+        errorMessage += "Số điện thoại phải có đúng 10 chữ số.\n";
+      }
+      if (gender === "Chọn giới tính") {
+        errorMessage += "Vui lòng chọn giới tính.\n";
+      }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        errorMessage += "Email không hợp lệ.\n";
+      }
+
+      if (!/^(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=!]).{6,}$/.test(password)) {
+        errorMessage += "Mật khẩu phải có ít nhất 6 ký tự, bao gồm 1 chữ hoa, 1 số và 1 ký tự đặc biệt.\n";
+      }
+
+      if (password !== confirmPassword) {
+        errorMessage += "Xác nhận mật khẩu không khớp.\n";
+      }
+      if (address === "") {
+        errorMessage += "Vui lòng nhập địa chỉ.\n";
+      }
+      let today = new Date();
+      let inputDate = new Date(birthdate);
+      today.setHours(0, 0, 0, 0);
+      if (birthdate === "" || inputDate >= today) {
+        errorMessage += "Ngày sinh phải trước ngày hôm nay.\n";
+      }
+      if (captcha === "") {
+        errorMessage += "Vui lòng nhập mã captcha.\n";
+      }
+
+
+      if (errorMessage) {
+        alert(errorMessage);
+      } else {
+        alert("Đăng ký thành công!");
+        document.querySelector("#register form").submit();
+      }
+    });
+  });
+</script>
 </html>
