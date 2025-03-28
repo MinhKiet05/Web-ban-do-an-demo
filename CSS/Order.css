@@ -133,7 +133,6 @@ li {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: rgb(44, 41, 38);
-  margin-top: 98px;
   height: 54.1vw;
   display: flex;
   align-items: center;
@@ -142,9 +141,10 @@ li {
 .container{
   background-color:rgb(23, 23, 23);
   width: 45vw;
+  height: auto;
+  padding-bottom: 40px;
   margin-left: 10vw;
   border-radius: 10px 10px 10px 10px;
-  height: 360px;
   
 }
 @media (max-width: 800px) {
