@@ -130,7 +130,7 @@ li {
     padding-right: 10px;
 }
 .main{
-    min-height: 850px;
+    min-height: 860px;
     height: auto;
         background: url(../img/about.jpg);
           background-size: contain;
@@ -154,7 +154,6 @@ li {
     margin-left: 12vw;
     margin-top: 6vw;
     padding-bottom: 20px;
-    margin-bottom: 100px;
   }
   
   #check {
