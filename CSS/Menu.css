@@ -251,7 +251,9 @@ label {
 .card{
   margin-bottom: 5px;
 }
-
+.btnOrder a{
+  margin-right: 2px;
+}
 @media (max-width: 1000px) {
   .main{
     padding-left: 5px;
