@@ -304,9 +304,9 @@
               let confirmPassword = document.querySelector("#register input[placeholder='Xác nhận mật khẩu']").value.trim();
               let errorMessage = "";
         
-              if (!/^[A-ZÀ-Ỹ][a-zà-ỹ]{3,29}(\s[A-ZÀ-Ỹ][a-zà-ỹ]*)*$/.test(name)) {
-                errorMessage += "Họ tên phải có ít nhất 4 và nhiều nhất 30 ký tự, mỗi chữ cái đầu viết hoa.\n";
-              }
+              if (!/^(?=.{4,30}$)([A-ZÀ-Ỹ][a-zà-ỹ]+)(\s[A-ZÀ-Ỹ][a-zà-ỹ]+)*$/.test(name)) {
+        errorMessage += "Họ tên phải có từ 4 đến 30 ký tự, mỗi chữ cái đầu viết hoa.\n";
+      }
         
               if (!/^0\d{9}$/.test(phone)) {
                 errorMessage += "Số điện thoại phải có đúng 10 chữ số.\n";
