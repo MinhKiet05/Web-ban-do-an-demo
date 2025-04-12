@@ -125,15 +125,6 @@
                           <div class="mb-2">
                             <input type="date" class="form-control" placeholder="Ngày sinh">
                           </div>
-                          <div class="row mb-2">
-                            <div class="col-md-6">
-                              <img src="../img/capcha.jpg" alt="" height="40px" width="160px">
-                              <a href="#"><img src="../img/reloadCapcha.png" alt="" height="40px" width="40px"></a>
-                            </div>
-                            <div class="col-md-6">
-                              <input type="text" class="form-control" placeholder="Nhập mã captcha">
-                            </div>
-                          </div>
                           <div class="mb-2">
                             Tôi đã đồng ý với <a href="#" style="text-decoration: none; color: gold;">CHÍNH SÁCH</a> của
                             chương trình.
@@ -298,7 +289,6 @@
         let email = document.querySelector("#register input[placeholder='Email']").value.trim();
         let password = document.querySelector("#register input[placeholder='Mật khẩu']").value.trim();
         let address = document.querySelector("#register input[placeholder='Địa chỉ']").value.trim();
-        let captcha = document.querySelector("#register input[placeholder='Nhập mã captcha']").value.trim();
         let confirmPassword = document.querySelector("#register input[placeholder='Xác nhận mật khẩu']").value.trim();
         let errorMessage = "";
   
@@ -306,9 +296,9 @@
         errorMessage += "Họ tên phải có từ 4 đến 30 ký tự, mỗi chữ cái đầu viết hoa.\n";
       }
   
-        if (!/^0\d{9}$/.test(phone)) {
-          errorMessage += "Số điện thoại phải có đúng 10 chữ số.\n";
-        }
+      if (!/^(08|09|03|07|05)\d{8}$/.test(phone)) {
+        errorMessage += "Số điện thoại phải có đúng 10 chữ số và bắt đầu bằng 08, 09, 03, 07 hoặc 05.\n";
+      }
         if (gender === "Chọn giới tính") {
           errorMessage += "Vui lòng chọn giới tính.\n";
         }
@@ -332,16 +322,11 @@
         if (birthdate === "" || inputDate >= today) {
           errorMessage += "Ngày sinh phải trước ngày hôm nay.\n";
         }
-        if (captcha === "") {
-          errorMessage += "Vui lòng nhập mã captcha.\n";
-        }
-  
   
         if (errorMessage) {
           alert(errorMessage);
         } else {
           alert("Đăng ký thành công!");
-          document.querySelector("#register form").submit();
         }
       });
     });
