@@ -229,6 +229,10 @@ label {
   color: black;
 }
 
+.btn-warning {
+  margin-left: 4px;
+}
+
 .containerLeft {
   flex: 1;
   margin: 20px;
