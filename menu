@@ -1,0 +1,228 @@
+<div class="main">
+    <div class="container">
+      <div class="title-menu">
+        <span>Menu</span>
+      </div>
+      <div class="menu">
+        <div class="containerLeft">
+          <div class="optGroup">
+            <div class="opt">
+              <a class="list-group-item list-group-item-action" style="background-color: gold" href="#garan" role="tab"
+                aria-controls="list-home"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                  fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5" />
+                </svg>
+                Gà Rán</a>
+            </div>
+            <div class="opt">
+              <a class="list-group-item list-group-item-action" style="background-color: gold" href="#hamburger"
+                role="tab" aria-controls="list-profile"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                  fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5" />
+                </svg>
+                Hamburger</a>
+            </div>
+            <div class="opt">
+              <a class="list-group-item list-group-item-action" style="background-color: gold" href="#nuoc" role="tab"
+                aria-controls="list-messages"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                  fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5" />
+                </svg>
+                Nước</a>
+            </div>
+          </div>
+        </div>
+        <div class="containerRight">
+          <div>
+            <div class="MenuTitle" id="garan">🍗Gà rán</div>
+            <div class="groupCard row">
+              <div class="card col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12">
+                <img src="../img/order_kem.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Gà sốt kem</h5>
+                  <p class="card-text">
+                    Sốt kem có thể được làm từ nhiều nguyên liệu khác nhau như
+                    kem tươi, kem chua, bơ, phô mai và các loại gia vị như
+                    tỏi, hành và tiêu.
+                  </p>
+                  <div class="in4">
+                    <div>35,000VNĐ</div>
+                    <div class="btnOrder">
+                      <a href="Order.html" class="btn btn-warning"><i class="fa-solid fa-cart-plus"
+                          style="color: #000000"></i></a>
+                      <a href="Order.html" class="btn btn-warning">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12">
+                <img src="../img/home7.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Gà rán</h5>
+                  <p class="card-text">
+                    Gà rán thường được phục vụ với các loại sốt như sốt tiêu,
+                    sốt ớt, sốt mayonnaise để tăng thêm hương vị và sự phong
+                    phú cho món ăn.
+                  </p>
+                  <div class="in4">
+                    <div>30,000VNĐ</div>
+                    <div class="btnOrder">
+                      <a href="Order.html" class="btn btn-warning"><i class="fa-solid fa-cart-plus"
+                          style="color: #000000"></i></a>
+                      <a href="Order.html" class="btn btn-warning">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12">
+                <img src="../img/home8.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Gà sốt cay</h5>
+                  <p class="card-text">
+                    Sốt cay có thể được làm từ nhiều loại ớt khác nhau, tạo ra
+                    từ vị cay nhẹ đến vị cay mạnh, tùy thuộc vào khẩu vị của
+                    người thưởng thức.
+                  </p>
+                  <div class="in4">
+                    <div>40,000VNĐ</div>
+                    <div class="btnOrder">
+                      <a href="Order.html" class="btn btn-warning"><i class="fa-solid fa-cart-plus"
+                          style="color: #000000"></i></a>
+                      <a href="Order.html" class="btn btn-warning">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="MenuTitle" id="hamburger">🍔Hamburger</div>
+            <div class="groupCard row">
+              <div class="card col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12">
+                <img src="../img/order_gà.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Hamburger gà</h5>
+                  <p class="card-text">
+                    Gà rán được đặt giữa hai lát bánh mì hamburger mềm mại.
+                    Được ăn kèm rau sống như rau xà lách, cà chua, cà rốt,
+                    hành tây và dưa chuột.
+                  </p>
+                  <div class="in4">
+                    <div>40,000VNĐ</div>
+                    <div class="btnOrder">
+                      <a href="Order.html" class="btn btn-warning"><i class="fa-solid fa-cart-plus"
+                          style="color: #000000"></i></a>
+                      <a href="Order.html" class="btn btn-warning">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12">
+                <img src="../img/Order_tôm.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Hamburger tôm</h5>
+                  <p class="card-text">
+                    Chả tôm được đặt giữa hai lát bánh mì hamburger mềm mại.
+                    Được ăn kèm rau sống như rau xà lách, cà chua, cà rốt,
+                    hành tây và dưa chuột.
+                  </p>
+                  <div class="in4">
+                    <div>40,000VNĐ</div>
+                    <div class="btnOrder">
+                      <a href="Order.html" class="btn btn-warning"><i class="fa-solid fa-cart-plus"
+                          style="color: #000000"></i></a>
+                      <a href="Order.html" class="btn btn-warning">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12">
+                <img src="../img/home3.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Hamburger bò</h5>
+                  <p class="card-text">
+                    Thịt bò được đặt giữa hai lát bánh mì hamburger mềm mại.
+                    Được ăn kèm rau sống như rau xà lách, cà chua, cà rốt,
+                    hành tây và dưa chuột.
+                  </p>
+                  <div class="in4">
+                    <div>45,000VNĐ</div>
+                    <div class="btnOrder">
+                      <a href="Order.html" class="btn btn-warning"><i class="fa-solid fa-cart-plus"
+                          style="color: #000000"></i></a>
+                      <a href="Order.html" class="btn btn-warning">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="MenuTitle" id="nuoc">🍹Nước</div>
+            <div class="groupCard row">
+              <div class="card col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12">
+                <img src="../img/pepsi.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Pepsi</h5>
+                  <p class="card-text">
+                    Pepsi có một hương vị đặc trưng, hòa quyện giữa vị ngọt,
+                    chua và gas, tạo nên một trải nghiệm uống thú vị và phong
+                    phú
+                  </p>
+                  <div class="in4">
+                    <div>15,000VNĐ</div>
+                    <div class="btnOrder">
+                      <a href="Order.html" class="btn btn-warning"><i class="fa-solid fa-cart-plus"
+                          style="color: #000000"></i></a>
+                      <a href="Order.html" class="btn btn-warning">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12">
+                <img src="../img/sprite.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Sprite</h5>
+                  <p class="card-text">
+                    Sprite là một loại nước ngọt không gas có hương vị chanh
+                    tự nhiên. Sprite mang lại cảm giác sảng khoái và tươi mát
+                    mỗi khi thưởng thức.
+                  </p>
+                  <div class="in4">
+                    <div>15,000VNĐ</div>
+                    <div class="btnOrder">
+                      <a href="Order.html" class="btn btn-warning"><i class="fa-solid fa-cart-plus"
+                          style="color: #000000"></i></a>
+                      <a href="Order.html" class="btn btn-warning">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-sm-12 col-md-12 col-lg-6 col-xl-4 col-12">
+                <img src="../img/cocacola.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Cocacola</h5>
+                  <p class="card-text">
+                    Cocacola có một hương vị đặc trưng, hòa quyện giữa vị ngọt
+                    đậm và gas, tạo nên một trải nghiệm uống sảng khoái và mát
+                    lạnh.
+                  </p>
+                  <div class="in4">
+                    <div>15,000VNĐ</div>
+                    <div class="btnOrder">
+                      <a href="Order.html" class="btn btn-warning"><i class="fa-solid fa-cart-plus"
+                          style="color: #000000"></i></a>
+                      <a href="Order.html" class="btn btn-warning">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
